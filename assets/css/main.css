@@ -1866,3 +1866,9 @@ section,
   /* Add your styles here */
 }
 
+/* Hide on screens smaller than 768px (typical mobile breakpoint) */
+@media (max-width: 767px) {
+  .desktop-only {
+    display: none;
+  }
+}
